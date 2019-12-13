@@ -1,6 +1,5 @@
 const $ = require('jquery');
-//const grappelli = require('grappelli');
-const grappelli = true;
+const grappelli = require('grappelli');
 const DJNesting = require('./utils');
 DJNesting.DjangoFormset = require('./jquery.djangoformset');
 

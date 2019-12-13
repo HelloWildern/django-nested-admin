@@ -100,10 +100,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es6_array_find__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es6_array_find__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var $ = __webpack_require__(/*! ./jquery.shim.js */ "./nested_admin/static/nested_admin/src/nested-admin/jquery.shim.js"); //const grappelli = require('grappelli');
+var $ = __webpack_require__(/*! ./jquery.shim.js */ "./nested_admin/static/nested_admin/src/nested-admin/jquery.shim.js");
 
-
-var grappelli = true;
+var grappelli = __webpack_require__(/*! grappelli */ "grappelli");
 
 var DJNesting = __webpack_require__(/*! ./utils */ "./nested_admin/static/nested_admin/src/nested-admin/utils.js");
 
